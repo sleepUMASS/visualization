@@ -1,0 +1,6 @@
+streamlit==1.9.2
+numpy==1.19.5
+pandas==1.2.4
+plotly
+plotly-express
+unicodecsv==0.14.1
