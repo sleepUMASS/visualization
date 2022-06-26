@@ -26,7 +26,7 @@ def check_hashes(password, hashed_text):
 	return False
 
 # connecting to SQL database
-conn = sqlite3.connect('data.db')
+conn = sqlite3.connect('data.db', check_same_thread=False)
 c = conn.cursor()
 
 # creates an empty users table with the required columns
